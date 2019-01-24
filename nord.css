@@ -390,7 +390,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #424242; border-color: #2E3440; color: #e6e6e6; }
 
-#footer, #footer.footer_msg_input { background: #2E3440; box-shadow: inset 1px 0 0 0 #2E3440; }
+#footer, #footer.footer_msg_input { background: #2E3440; box-shadow: inset 1px 0 0 0 #4C566A; }
 
 #footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #2E3440 !important; border-color: #2E3440 !important; }
 
@@ -758,13 +758,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #limit_meter_message_body { color: #949494; }
 
-.channel_header { background: #2E3440; box-shadow: inset 1px 0 0 0 #2E3440; }
+.channel_header { background: #2E3440; box-shadow: inset 1px 0 0 0 #4C566A; }
 
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
-#client_body:not(.onboarding)::before { background: #2E3440; border-bottom: 1px solid #2E3440; box-shadow: inset 1px 0 0 0 #2E3440; }
+#client_body:not(.onboarding)::before { background: #2E3440; border-bottom: 1px solid #2E3440; box-shadow: inset 1px 0 0 0 #4C566A; }
 
-#client_body:not(.onboarding):not(.feature_global_nav_layout)::before { background: #2E3440; border-bottom: 1px solid #2E3440; box-shadow: inset 1px 0 0 0 #2E3440; }
+#client_body:not(.onboarding):not(.feature_global_nav_layout)::before { background: #2E3440; border-bottom: 1px solid #2E3440; box-shadow: inset 1px 0 0 0 #4C566A; }
 
 .messages_header { color: #e6e6e6; }
 
@@ -876,7 +876,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-search_autocomplete__suggestion_item--selected { background-color: #424242; }
 
-.c-search_autocomplete__suggestion_item .token { background-color: #2E34402E3440; color: #e6e6e6; }
+.c-search_autocomplete__suggestion_item .token { background-color: #2E3440; color: #e6e6e6; }
 
 .c-search__input_and_close { border-bottom-color: #434C5E; }
 
@@ -884,7 +884,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msgs_overlay_div { background: #2E3440; }
 
-#col_messages { box-shadow: inset 1px 0 0 0 #2E3440; }
+#col_messages { box-shadow: inset 1px 0 0 0 #4C566A; }
 
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { color: #949494 !important; }
 
@@ -1004,7 +1004,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 ts-message { color: #e6e6e6; }
 
-ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(0, 0, 0, 0.1); box-shadow: inset 1px 0 0 0 #2E3440; }
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(0, 0, 0, 0.1); box-shadow: inset 1px 0 0 0 #4C566A; }
 
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.2); }
 
@@ -2395,9 +2395,9 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #convo_tab .message_input, #convo_tab textarea#msg_text { color: #e6e6e6; }
 
-ts-message.message:hover, ts-message.message:active, ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) { background-color: #2E34402E3440; }
+ts-message.message:hover, ts-message.message:active, ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) { background-color: #2E3440; }
 
-ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_container:hover { background-color: #2E34402E3440; }
+ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_container:hover { background-color: #2E3440; }
 
 #whats_new_tab p { color: #e6e6e6; }
 
@@ -2679,7 +2679,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #ff
 
 .c-dialog__header .c-dialog__close:hover { color: #949494; }
 
-.c-dialog__body { background: #2E34402E3440; }
+.c-dialog__body { background: #2E3440; }
 
 .c-dialog__body .p-share_dialog_message_input { background-color: #434C5E; border-color: #2E3440; color: #e6e6e6; }
 
@@ -2693,7 +2693,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #ff
 
 .c-dialog__body input.c-input_text:focus { border-color: #545454; box-shadow: unset; }
 
-.c-dialog__footer { background: #2E34402E3440; }
+.c-dialog__footer { background: #2E3440; }
 
 .c-dialog__footer .c-button { background-color: #545454; color: #e6e6e6; }
 
