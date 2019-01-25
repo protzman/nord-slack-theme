@@ -884,7 +884,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msgs_overlay_div { background: #2E3440; }
 
-#col_messages { box-shadow: none 1px 0 0 0 #2E3440; }
+#col_messages { box-shadow: inset 1px 0 0 0 #2E3440; }
 
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { color: #949494 !important; }
 
