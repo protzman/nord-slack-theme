@@ -1,6 +1,8 @@
 # nord-slack-theme
 A really bootlegged nord theme for slack. You can point to this css file for the cdn but use the following in you slack `ssb-interop.js` file for full nordy goodness!
 
+`ssb-interop.js` is located on Mac @ `Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`. Just open and paste the below code in there.
+
 ```js
 /**
  * The preload script needs to stay in regular ole JavaScript, because it is
